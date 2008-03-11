@@ -29,14 +29,14 @@ and filtering.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl.UTF-8
-Dowi±zania do biblioteki Syck.
+DowiÄ…zania do biblioteki Syck.
 
-YAML(tm) (rymuje siê ze s³owem "camel") to prosty do parsowania format
-serializacji danych zaprojektowany pod katem czytelno¶ci dla cz³owieka
-i interakcji z jêzykami skryptowymi. YAML jest zoptymalizowany pod
-k±tem wykorzystania w celu serializacji danych, przechowywania opcji
-konfiguracyjnych, logów, komunikatorów internetowych czy ró¿norakich
-filtrów.
+YAML(tm) (rymuje siÄ™ ze sÅ‚owem "camel") to prosty do parsowania format
+serializacji danych zaprojektowany pod katem czytelnoÅ›ci dla czÅ‚owieka
+i interakcji z jÄ™zykami skryptowymi. YAML jest zoptymalizowany pod
+kÄ…tem wykorzystania w celu serializacji danych, przechowywania opcji
+konfiguracyjnych, logÃ³w, komunikatorÃ³w internetowych czy rÃ³Å¼norakich
+filtrÃ³w.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
