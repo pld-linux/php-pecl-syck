@@ -15,6 +15,7 @@ BuildRequires:	rpmbuild(macros) >= 1.344
 BuildRequires:	syck-devel
 %{?requires_php_extension}
 Requires:	php-common >= 4:5.0.4
+Requires:	php-pecl-hash
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
