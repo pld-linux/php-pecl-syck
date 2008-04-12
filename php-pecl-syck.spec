@@ -1,7 +1,7 @@
 %define		_modname	syck
 %define		_status		beta
 Summary:	%{_modname} - YAML-1.0 parser and emitter
-Summary(pl.UTF-8):	%{_modname} - parser i emiter YAML-1.0	
+Summary(pl.UTF-8):	%{_modname} - analizator i emiter YAML-1.0
 Name:		php-pecl-%{_modname}
 Version:	0.9.2
 Release:	1
@@ -32,8 +32,8 @@ In PECL status of this extension is: %{_status}.
 %description -l pl.UTF-8
 Dowiązania do biblioteki Syck.
 
-YAML(tm) (rymuje się ze słowem "camel") to prosty do parsowania format
-serializacji danych zaprojektowany pod katem czytelności dla człowieka
+YAML(tm) (rymuje się ze słowem "camel") to prosty do analizy format
+serializacji danych zaprojektowany pod kątem czytelności dla człowieka
 i interakcji z językami skryptowymi. YAML jest zoptymalizowany pod
 kątem wykorzystania w celu serializacji danych, przechowywania opcji
 konfiguracyjnych, logów, komunikatorów internetowych czy różnorakich
