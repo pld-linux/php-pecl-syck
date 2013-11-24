@@ -5,7 +5,7 @@ Summary:	%{modname} - YAML-1.0 parser and emitter
 Summary(pl.UTF-8):	%{modname} - analizator i emiter YAML-1.0
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.9.3
-Release:	1
+Release:	2
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -17,6 +17,7 @@ BuildRequires:	syck-devel
 %{?requires_php_extension}
 Requires:	%{php_name}-hash
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
